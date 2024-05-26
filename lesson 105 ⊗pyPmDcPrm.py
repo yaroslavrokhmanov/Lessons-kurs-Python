@@ -76,6 +76,7 @@ dct = {
 res1 = str(dct['y'])
 res2 = str(dct['m'])
 res3 = str(dct['d'])
-print(res1 + '-' + res2 + '-' + res3)
+print(res1 + '-' + res2 +  '-' + res3) #2025-12-31
 
 
+ 
