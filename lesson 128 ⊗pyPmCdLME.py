@@ -39,3 +39,4 @@ if age >= 18:
 	print('You have access to the site') # You have access to the site
 else:
 	print('Нou do not have access to the site')
+     
