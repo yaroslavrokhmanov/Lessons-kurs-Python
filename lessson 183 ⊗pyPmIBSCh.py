@@ -52,5 +52,5 @@ print(txt.isspace()) # True
 # 11.Дан список:
 lst = ['a', 'b', ' ', 'c', '']
 # Проверьте, есть ли в нем элементы, содержащие только пробелы.
-res = [el.isspace() for el in lst ] [False, False, True, False, False]
-print(res)
+res = [el.isspace() for el in lst ] 
+print(res) # [False, False, True, False, False]
