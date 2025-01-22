@@ -1,28 +1,27 @@
 # 1.Каким будет результат выполнения следующего кода:
-tst = '12'
 
-def func():
-	tst = 12
-	return tst
-	
-print(tst) # 12
+lst1 = [1, 2, 3, 4, 5]
+
+lst2 = lst1
+lst2[0] = '!'
+
+print(lst1) # ['!', 2, 3, 4, 5]
 
 # 2.Каким будет результат выполнения следующего кода:
-tst = 'abc'
 
-def func():
-	tst = tst.upper()
-	return tst 
+lst1 = [1, 2, 3, 4, 5]
 
-func()
-print(tst) # oshibka  tst nie obyavlena
+lst2 = lst1
+lst2[0] = '!'
+
+print(lst2) #  ['!', 2, 3, 4, 5]
 
 # 3.Каким будет результат выполнения следующего кода:
-# tst = 'abc'
 
-# def func():
-# txt = tst.upper()
-# return txt
-		
-# print(func())
-# print(tst) # oshibka, nie zadany odstupy
+lst1 = ['a', 'b', 'c', 'd']
+
+lst2 = lst1
+lst3 = 'e'
+lst2[2] = lst3
+
+print(lst2) # ['a', 'b', 'e', 'd']
