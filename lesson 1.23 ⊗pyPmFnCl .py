@@ -33,11 +33,11 @@ def fibo():
         return result
     return func
 res = fibo()
-print(res())
-print(res())
-print(res())
-print(res())
-print(res())
-print(res())
-print(res())
+print(res()) # 0
+print(res()) # 1
+print(res()) # 1
+print(res()) # 2
+print(res()) # 3
+print(res()) # 5
+print(res()) # 8
 
