@@ -1,0 +1,82 @@
+# Скомпилированные байт-коды / оптимизированные файлы / DLL-файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C-расширения (например, скомпилированные модули)
+*.so
+
+# Виртуальные окружения
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# Файлы для сборки / упаковки проекта
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller (файлы упаковщика Python-программ)
+*.manifest
+*.spec
+
+# Логи установщика
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Отчёты юнит-тестов / покрытия кода
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyCharm (папка настроек среды разработки)
+.idea/
+
+# Visual Studio Code (папка настроек редактора VSCode)
+.vscode/
+
+# Файлы переменных окружения
+.env
+.env.*
+
+# Jupyter Notebook (временные файлы ноутбуков)
+.ipynb_checkpoints
+
+# Кэш анализатора типов MyPy
+.mypy_cache/
+
+# Кэш статического анализатора Pyre
+.pyre/
+
+# macOS (временные системные файлы)
+.DS_Store
+
+# Windows (временные и системные файлы)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Прочее
+*.log
