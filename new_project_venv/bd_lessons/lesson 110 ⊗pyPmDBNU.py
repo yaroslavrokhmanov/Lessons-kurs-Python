@@ -42,7 +42,7 @@ try:
 #    5  user5      27       700
 #    6  user6      28       900
 
-# Работникам с id больше 2 и меньше 5 включительно поставьте возраст 23.
+# 4.Работникам с id больше 2 и меньше 5 включительно поставьте возраст 23.
     cursor.execute("UPDATE users SET age = 23 WHERE id > 2 AND id <= 5")
 
 #       id  name      age    salary
@@ -63,17 +63,6 @@ try:
 
     cursor.close()
     connection.close()
-
-#   id  name      age    salary
-# ----  ------  -----  --------
-#    1  user1      23       400
-#    2  user2      25       500
-#    3  user3      23       500
-#    4  user4      35       900
-#    5  user5      27       500
-#    6  user6      28       900
-
-
 
 except Error as e:
     print("Mistake")
